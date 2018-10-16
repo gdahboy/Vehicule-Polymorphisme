@@ -25,6 +25,7 @@ public class Main {
         A2.calculerprix(d4);
         V1.calculerprix(d3);
         V2.calculerprix(d4);
+        System.out.println(V1.getPrixcourant() );
 
 
     }

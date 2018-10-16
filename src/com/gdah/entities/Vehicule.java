@@ -29,4 +29,7 @@ public class Vehicule {
         prixcourant =  prixdeamortissement * (anneActuelle.getYear() - datedeachat.getYear() ) ;
     }
 
+    public double getPrixcourant() {
+        return prixcourant;
+    }
 }
